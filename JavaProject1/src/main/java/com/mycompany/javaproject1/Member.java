@@ -15,7 +15,7 @@ public class Member {
     private String name;
     private double fees;
     
-    public void Member(char pMemberType,int pMemberID,String pName,double pFees){
+    public  Member(char pMemberType,int pMemberID,String pName,double pFees){
         memberType = pMemberType;
         memberID   = pMemberID;
         name       = pName;
